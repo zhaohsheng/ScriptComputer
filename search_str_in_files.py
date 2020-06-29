@@ -6,7 +6,11 @@
 import os
 
 def f(file_path,s):
-
+    '''
+	:param file_path: Absolute path
+    :param s: Searched string
+	:return: Number of occurrences in each file
+    '''
 	dic={}
 	for file in os.listdir(file_path):
 		with open(os.path.join(file_path,file),'r') as f:
@@ -19,6 +23,4 @@ def f(file_path,s):
 	return dic
 
 
-file_path="C:\\Users\\zhaoh\\Desktop\\测试\\测试学习内容\\1"
-str='2'
-print(f(file_path,str))
+
