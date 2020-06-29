@@ -1,2 +1,2 @@
 # ScriptComputer
- About Python scripts 
+  Python simple small project.
